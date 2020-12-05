@@ -11,7 +11,7 @@ import SwiftUI
 struct SimpleUserInputApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandmarkList().environmentObject(UserData())
         }
     }
 }
